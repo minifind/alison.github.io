@@ -19,7 +19,7 @@ function Countdown() {
 		// The display texts for the counters
 		labels: ['Years', 'Months', 'Weeks', '天', '小时', '分钟', '秒'],
 		// The display texts for the counters if only one
-		labels1: ['Year', 'Month', 'Week', '天', 'Hour', 'Minute', 'Second'],
+		labels1: ['Year', 'Month', 'Week', '天', '小时', '分钟', '秒'],
 		compactLabels: ['y', 'm', 'w', 'd'], // The compact texts for the counters
 		timeSeparator: ':', // Separator for time periods
 		isRTL: false // True for right-to-left languages, false for left-to-right
