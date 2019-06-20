@@ -156,6 +156,33 @@ ul li {
 	margin: 5% auto;
 }
 
+.container1{
+	height:70px;
+	width:80px;
+	margin:100px auto 0 auto;
+}
+
+.parent{
+	position:relative;
+}
+
+.search{
+	width:300px;
+	height:40px;
+	border-radius:18px;
+	outline:none;
+	border:1px souild #ccc;
+	padding-left:20px;
+	position:absolute;
+}
+
+.btn2{
+	height:35px;
+	width:35px;
+	position:absolute;
+	background:
+}
+
 .item {
 	display: inline-block;
 	position: relative;
