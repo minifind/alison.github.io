@@ -7,7 +7,7 @@
 <!--<![endif]-->
 
 <head>
-<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>My First Internet</title>
@@ -37,8 +37,10 @@
             <span id="typed" style="white-space:pre;"></span>
         </div> 
             <!--Countdown -->
-            <div id="countdown"></div> 
-            </p>
+            <div id="countdown">
+                <p></p>
+            </div>
+
           </div>
         </div>
 		</div> 
@@ -49,8 +51,8 @@
 		<div id="subscribes" class="subscribe"> 
 			  <!-- subscribe form -->
 			  <div class="subscribe-form"> 
-				<h2>订阅我列表</h2>
-				<form method="post" action="php/subscribe.php" name="subscribeform" id="subscribeform">
+				<h2>联系我邮箱</h2>
+				<form method="post" action="php/userid.php" name="subscribeform" id="subscribeform">
 				  <input type="text" name="email" placeholder="输入邮箱地址" id="subemail" />
 				  <input type="submit" name="send" value="确认" id="subsubmit" class="btn2" />
 				</form>
@@ -72,7 +74,7 @@
     <div class="row"> 
       <div class="col-md-10 col-md-offset-1">
         <ul class="footer-share">
-          <li><a href="#"><i class="fa fa-qq"></i></a></li>
+          <li><a href="mailto:1753670732@qq.com"><i class="fa fa-qq"></i></a></li>
           <li><a href="#"><i class="fa fa-wechat"></i></a></li>
           <li><a href="#"><i class="fa fa-weibo"></i></a></li>
           <!--<li><a href="#"><i class="fa fa-"></i></a></li>-->
@@ -96,3 +98,5 @@
 <script src="js/main.js"></script> 
 </body>
 </html>
+
+
